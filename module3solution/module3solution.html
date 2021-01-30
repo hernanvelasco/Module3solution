@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Module3solution</title>
+    <meta name="restaurant" content="">
+    <meta name="device" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: gray; border: 2px solid black;">
+            <a class="navbar-brand" href="#">FOOD</a>
+            <button class="navbar-toggler" style="border: black 2px solid;" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="nav navbar-nav" id="nav-text">
+                    <a class="nav-item nav-link active" href="#">Chicken<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#"> <span class="hidden-md-up">Beef</span></a>
+                    <a class="nav-item nav-link" href="#">Sushi</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <h1 class="heading-title text-center">Our Menu</h1>
+
+    <div class="box">
+        <div class="container item1">
+            <section>
+                <div id="chicken">
+                    <p>Chicken</p>
+                </div>
+                <p>A feast of twelve 100% chicken breast Mini Fillets plus Popcorn Chicken served with Original Dips, including Kentucky Smoky BBQ sauce, Original Hot Sauce, Sticky Sweet Chilli Sauce and Garlic Buttermilk Mayo. This dipper's delight also comes with four regular fries, two large sides, and a large bottle of the drink of your choice
+                A feast of twelve 100% chicken breast Mini Fillets plus Popcorn Chicken served with Original Dips, including Kentucky Smoky BBQ sauce, Original Hot Sauce, Sticky Sweet Chilli Sauce and Garlic Buttermilk Mayo. This dipper's delight also comes with four regular fries, two large sides, and a large bottle of the drink of your choice.</p>
+            </section>
+        </div>
+
+        <div class="container item2">
+            <section>
+                <div id="beef">
+                    <p>Beef</p>
+                </div>
+                <p>Succulent roast topside of beef, made especially irresistible with a mustard crust, piquant shallots and red wine enriched gravy.
+                ilverside and topside are cheaper and leaner cuts of meat, well-suited to slow-cooking. The stock and juices make a great sauce when combined with caramelised onions.
+                Wow guests with an intensely flavoursome, peppered sirloin joint. Serve alongside our potatoes dauphinoise, enriched with tarragon, shallots and gruyère .
+                Wow guests with an intensely flavoursome, peppered sirloin joint. Serve alongside our potatoes dauphinoise, enriched with tarragon, shallots and gruyère 
+            </p>
+            </section>
+        </div>
+
+        <div class="container item3">
+            <section>
+                <div id="sushi">
+                    <p>Sushi</p>
+                </div>
+                <p>Discover our food, freshly prepared, every day. From all sizes of sushi sets to mouth-watering hot bento dishes, warming noodle soups and salads. Add k-wings and gyozas as a side.
+
+All our food is freshly prepared in our kitchens by our trained team and although we take extra care, we are unable to guarantee that any menu items can be completely free of allergens.
+Discover our food, freshly prepared, every day. From all sizes of sushi sets to mouth-watering hot bento dishes, warming noodle soups and salads. Add k-wings and gyozas as a side.
+</p>
+            </section>
+        </div>
+
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
